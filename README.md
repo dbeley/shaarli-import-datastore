@@ -16,6 +16,7 @@ Optional:
 Assuming your database is called datastore.php and is in the same directory as the scripts :
 
 ```
+python -m pip install phpserialize
 # NOTE read_datastore.py defaults to datastore.php in current directory
 #      The full pathname and file name can be passed in as a parameter
 ./read_datastore.py > datastore.json
